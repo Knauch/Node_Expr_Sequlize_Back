@@ -1,0 +1,24 @@
+1. settign dbConfig - with all props for db sql
+2. Server file - defining the port, basic express stuff like listen etc
+    -adding router to server file (after we add all routes to it)
+
+3. indexFile - const sequelize = new Sequelize = with all reference from dbConfig
+ - sequlize auth
+ - defining models for db like products etc.
+
+4. Product Model - defining the product part in db (title, price, etc inside of each defining the type etc)
+
+5. product Controller = setting  functions with product like create, update, delete or spesific mapping like only published. 
+
+6. productRouter adding route for each action function from product controller (add, delete, update etc)
+
+7. testing with POSTMAN that our API routes working properly
+    making proper link in the head that selecting proper action POST / GET / PUT 
+    POST - creating new stuff
+    GET - retriving information
+    PUT - updating stuff
+
+8. setting up the review controller with all function s addReview allReview etc.
+
+9. Making the conection between product and review (1 to many) in index file with forength key (hasMany and belongsTo)
+- adding async func to productController that includes (conects) reviews and products through product_id witch we have in reviewController
