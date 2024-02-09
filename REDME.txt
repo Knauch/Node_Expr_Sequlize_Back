@@ -22,3 +22,7 @@
 
 9. Making the conection between product and review (1 to many) in index file with forength key (hasMany and belongsTo)
 - adding async func to productController that includes (conects) reviews and products through product_id witch we have in reviewController
+
+
+Setting up FrontEnd
+
