@@ -4,6 +4,11 @@ const cors = require('cors')
 
 const app = express()
 
+//some stuff needed for frontend
+// var corOptions = {
+//     origin: 'http://localhost:8081'
+// }
+
 // middleware
 
 app.use(express.json())
